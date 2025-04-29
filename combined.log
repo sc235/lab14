@@ -1,0 +1,68 @@
+{"debug":"info","message":"Processing order with ID: 123","timestamp":"2025-04-29 11:23:44"}
+{"debug":"info","message":"Order details: [{\"name\":\"Laptop\",\"price\":1200,\"quantity\":1},{\"name\":\"Mouse\",\"price\":25,\"quantity\":2}]","timestamp":"2025-04-29 11:23:44"}
+{"debug":"info","message":"Order 123 processed. Total: $1250.00","timestamp":"2025-04-29 11:23:44"}
+{"debug":"info","message":"Processing order with ID: 456","timestamp":"2025-04-29 11:23:44"}
+{"debug":"info","message":"Order details: [{\"name\":\"Keyboard\",\"price\":75,\"quantity\":15},{\"name\":\"Monitor\",\"price\":300,\"quantity\":1},{\"name\":\"Broken Item\",\"price\":0,\"quantity\":1}]","timestamp":"2025-04-29 11:23:44"}
+{"debug":"warn","message":"Large quantity detected for item: Keyboard","timestamp":"2025-04-29 11:23:44"}
+{"debug":"error","message":"Invalid price found for item: Broken Item","timestamp":"2025-04-29 11:23:44"}
+{"debug":"info","message":"Order 456 processed. Total: $1425.00","timestamp":"2025-04-29 11:23:44"}
+{"debug":"error","message":"An error occurred: Simulating a critical error","stack":"Error: Simulating a critical error\n    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\logging\\app.js:41:11)\n    at Module._compile (node:internal/modules/cjs/loader:1562:14)\n    at Object..js (node:internal/modules/cjs/loader:1699:10)\n    at Module.load (node:internal/modules/cjs/loader:1313:32)\n    at Function._load (node:internal/modules/cjs/loader:1123:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)\n    at node:internal/main/run_main_module:36:49","timestamp":"2025-04-29 11:23:44"}
+{"level":"info","message":"Processing order with ID: 123","timestamp":"2025-04-29 11:40:56"}
+{"level":"info","message":"Order details: [{\"name\":\"Laptop\",\"price\":1200,\"quantity\":1},{\"name\":\"Mouse\",\"price\":25,\"quantity\":2}]","timestamp":"2025-04-29 11:40:56"}
+{"level":"info","message":"Order 123 processed. Total: $1250.00","timestamp":"2025-04-29 11:40:56"}
+{"level":"info","message":"Processing order with ID: 456","timestamp":"2025-04-29 11:40:56"}
+{"level":"info","message":"Order details: [{\"name\":\"Keyboard\",\"price\":75,\"quantity\":15},{\"name\":\"Monitor\",\"price\":300,\"quantity\":1},{\"name\":\"Broken Item\",\"price\":0,\"quantity\":1}]","timestamp":"2025-04-29 11:40:56"}
+{"level":"warn","message":"Large quantity detected for item: Keyboard","timestamp":"2025-04-29 11:40:56"}
+{"level":"error","message":"Invalid price found for item: Broken Item","timestamp":"2025-04-29 11:40:56"}
+{"level":"info","message":"Order 456 processed. Total: $1425.00","timestamp":"2025-04-29 11:40:56"}
+{"level":"error","message":"An error occurred: Simulating a critical error","stack":"Error: Simulating a critical error\n    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\logging\\app.js:41:11)\n    at Module._compile (node:internal/modules/cjs/loader:1562:14)\n    at Object..js (node:internal/modules/cjs/loader:1699:10)\n    at Module.load (node:internal/modules/cjs/loader:1313:32)\n    at Function._load (node:internal/modules/cjs/loader:1123:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)\n    at node:internal/main/run_main_module:36:49","timestamp":"2025-04-29 11:40:56"}
+{"level":"info","message":"Processing order with ID: 123","timestamp":"2025-04-29 12:04:01"}
+{"level":"info","message":"Order details: [{\"name\":\"Laptop\",\"price\":1200,\"quantity\":1},{\"name\":\"Mouse\",\"price\":25,\"quantity\":2}]","timestamp":"2025-04-29 12:04:01"}
+{"level":"info","message":"Order 123 processed. Total: $1250.00","timestamp":"2025-04-29 12:04:01"}
+{"level":"info","message":"Processing order with ID: 456","timestamp":"2025-04-29 12:04:01"}
+{"level":"info","message":"Order details: [{\"name\":\"Keyboard\",\"price\":75,\"quantity\":15},{\"name\":\"Monitor\",\"price\":300,\"quantity\":1},{\"name\":\"Broken Item\",\"price\":0,\"quantity\":1}]","timestamp":"2025-04-29 12:04:01"}
+{"level":"warn","message":"Large quantity detected for item: Keyboard","timestamp":"2025-04-29 12:04:01"}
+{"level":"error","message":"Invalid price found for item: Broken Item","timestamp":"2025-04-29 12:04:01"}
+{"level":"info","message":"Order 456 processed. Total: $1425.00","timestamp":"2025-04-29 12:04:01"}
+{"level":"error","message":"An error occurred: Simulating a critical error","stack":"Error: Simulating a critical error\n    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\logging\\app.js:41:11)\n    at Module._compile (node:internal/modules/cjs/loader:1562:14)\n    at Object..js (node:internal/modules/cjs/loader:1699:10)\n    at Module.load (node:internal/modules/cjs/loader:1313:32)\n    at Function._load (node:internal/modules/cjs/loader:1123:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)\n    at node:internal/main/run_main_module:36:49","timestamp":"2025-04-29 12:04:01"}
+{"level":"debug","message":"This is a debug message for development.","timestamp":"2025-04-29 12:04:01"}
+{"level":"info","message":"Processing order with ID: 123","timestamp":"2025-04-29 12:07:09"}
+{"level":"info","message":"Order details: [{\"name\":\"Laptop\",\"price\":1200,\"quantity\":1},{\"name\":\"Mouse\",\"price\":25,\"quantity\":2}]","timestamp":"2025-04-29 12:07:09"}
+{"level":"info","message":"Order 123 processed. Total: $1250.00","timestamp":"2025-04-29 12:07:09"}
+{"level":"info","message":"Processing order with ID: 456","timestamp":"2025-04-29 12:07:09"}
+{"level":"info","message":"Order details: [{\"name\":\"Keyboard\",\"price\":75,\"quantity\":15},{\"name\":\"Monitor\",\"price\":300,\"quantity\":1},{\"name\":\"Broken Item\",\"price\":0,\"quantity\":1}]","timestamp":"2025-04-29 12:07:09"}
+{"level":"warn","message":"Large quantity detected for item: Keyboard","timestamp":"2025-04-29 12:07:09"}
+{"level":"error","message":"Invalid price found for item: Broken Item","timestamp":"2025-04-29 12:07:09"}
+{"level":"info","message":"Order 456 processed. Total: $1425.00","timestamp":"2025-04-29 12:07:09"}
+{"level":"error","message":"An error occurred: Simulating a critical error","stack":"Error: Simulating a critical error\n    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\logging\\app.js:41:11)\n    at Module._compile (node:internal/modules/cjs/loader:1562:14)\n    at Object..js (node:internal/modules/cjs/loader:1699:10)\n    at Module.load (node:internal/modules/cjs/loader:1313:32)\n    at Function._load (node:internal/modules/cjs/loader:1123:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)\n    at node:internal/main/run_main_module:36:49","timestamp":"2025-04-29 12:07:09"}
+{"level":"debug","message":"This is a debug message for development.","timestamp":"2025-04-29 12:07:09"}
+{"level":"info","message":"Processing order with ID: 123","timestamp":"2025-04-29 12:29:26"}
+{"level":"info","message":"Order details: [{\"name\":\"Laptop\",\"price\":1200,\"quantity\":1},{\"name\":\"Mouse\",\"price\":25,\"quantity\":2}]","timestamp":"2025-04-29 12:29:26"}
+{"level":"info","message":"Order 123 processed. Total: $1250.00","timestamp":"2025-04-29 12:29:26"}
+{"level":"info","message":"Processing order with ID: 456","timestamp":"2025-04-29 12:29:26"}
+{"level":"info","message":"Order details: [{\"name\":\"Keyboard\",\"price\":75,\"quantity\":15},{\"name\":\"Monitor\",\"price\":300,\"quantity\":1},{\"name\":\"Broken Item\",\"price\":0,\"quantity\":1}]","timestamp":"2025-04-29 12:29:26"}
+{"level":"warn","message":"Large quantity detected for item: Keyboard","timestamp":"2025-04-29 12:29:26"}
+{"level":"error","message":"Invalid price found for item: Broken Item","timestamp":"2025-04-29 12:29:26"}
+{"level":"info","message":"Order 456 processed. Total: $1425.00","timestamp":"2025-04-29 12:29:26"}
+{"level":"error","message":"An error occurred: Simulating a critical error","stack":"Error: Simulating a critical error\n    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\logging\\app.js:41:11)\n    at Module._compile (node:internal/modules/cjs/loader:1562:14)\n    at Object..js (node:internal/modules/cjs/loader:1699:10)\n    at Module.load (node:internal/modules/cjs/loader:1313:32)\n    at Function._load (node:internal/modules/cjs/loader:1123:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)\n    at node:internal/main/run_main_module:36:49","timestamp":"2025-04-29 12:29:26"}
+{"level":"debug","message":"This is a debug message for development.","timestamp":"2025-04-29 12:29:26"}
+{"level":"info","message":"Processing order with ID: 123","timestamp":"2025-04-29 12:29:49"}
+{"level":"info","message":"Order details: [{\"name\":\"Laptop\",\"price\":1200,\"quantity\":1},{\"name\":\"Mouse\",\"price\":25,\"quantity\":2}]","timestamp":"2025-04-29 12:29:49"}
+{"level":"info","message":"Order 123 processed. Total: $1250.00","timestamp":"2025-04-29 12:29:49"}
+{"level":"info","message":"Processing order with ID: 456","timestamp":"2025-04-29 12:29:49"}
+{"level":"info","message":"Order details: [{\"name\":\"Keyboard\",\"price\":75,\"quantity\":15},{\"name\":\"Monitor\",\"price\":300,\"quantity\":1},{\"name\":\"Broken Item\",\"price\":0,\"quantity\":1}]","timestamp":"2025-04-29 12:29:49"}
+{"level":"warn","message":"Large quantity detected for item: Keyboard","timestamp":"2025-04-29 12:29:49"}
+{"level":"error","message":"Invalid price found for item: Broken Item","timestamp":"2025-04-29 12:29:49"}
+{"level":"info","message":"Order 456 processed. Total: $1425.00","timestamp":"2025-04-29 12:29:49"}
+{"level":"error","message":"An error occurred: Simulating a critical error","stack":"Error: Simulating a critical error\n    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\logging\\app.js:41:11)\n    at Module._compile (node:internal/modules/cjs/loader:1562:14)\n    at Object..js (node:internal/modules/cjs/loader:1699:10)\n    at Module.load (node:internal/modules/cjs/loader:1313:32)\n    at Function._load (node:internal/modules/cjs/loader:1123:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)\n    at node:internal/main/run_main_module:36:49","timestamp":"2025-04-29 12:29:49"}
+{"level":"debug","message":"This is a debug message for development.","timestamp":"2025-04-29 12:29:49"}
+{"level":"info","message":"Processing order with ID: 123","timestamp":"2025-04-29 12:49:30"}
+{"level":"info","message":"Order details: [{\"name\":\"Laptop\",\"price\":1200,\"quantity\":1},{\"name\":\"Mouse\",\"price\":25,\"quantity\":2}]","timestamp":"2025-04-29 12:49:31"}
+{"level":"info","message":"Order 123 processed. Total: $1250.00","timestamp":"2025-04-29 12:49:31"}
+{"level":"info","message":"Processing order with ID: 456","timestamp":"2025-04-29 12:49:31"}
+{"level":"info","message":"Order details: [{\"name\":\"Keyboard\",\"price\":75,\"quantity\":15},{\"name\":\"Monitor\",\"price\":300,\"quantity\":1},{\"name\":\"Broken Item\",\"price\":0,\"quantity\":1}]","timestamp":"2025-04-29 12:49:31"}
+{"level":"warn","message":"Large quantity detected for item: Keyboard","timestamp":"2025-04-29 12:49:31"}
+{"level":"error","message":"Invalid price found for item: Broken Item","timestamp":"2025-04-29 12:49:31"}
+{"level":"info","message":"Order 456 processed. Total: $1425.00","timestamp":"2025-04-29 12:49:31"}
+{"level":"error","message":"An error occurred: Simulating a critical error","stack":"Error: Simulating a critical error\n    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\logging\\app.js:48:11)\n    at Module._compile (node:internal/modules/cjs/loader:1562:14)\n    at Object..js (node:internal/modules/cjs/loader:1699:10)\n    at Module.load (node:internal/modules/cjs/loader:1313:32)\n    at Function._load (node:internal/modules/cjs/loader:1123:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)\n    at node:internal/main/run_main_module:36:49","timestamp":"2025-04-29 12:49:31"}
+{"level":"debug","message":"This is a debug message for development.","timestamp":"2025-04-29 12:49:31"}
